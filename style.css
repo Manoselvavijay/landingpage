@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* Navbar */
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 40px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #000;
+    float: inline-end;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #009349;
+    font-weight: 500;
+}
+
+.navbar-collapse .btn-success{
+    float: right;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* Hero Section */
+
+#herosection{
+    background: #009349;
+    color: #fff;
+    padding-top: 80px 0;
+}
+
+#herosection .play-btn{
+    width: 40px;
+    margin-right: 8px;
+}
+
+#herosection .wd{
+    color: #fff;
+    text-decoration: none;
+}
+
+#herosection .bottom-img{
+    width: 100%;
+}
+
+#services{
+    padding: 80px 0;
+}
+
+#services h1{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#services .title::before{
+    content: '';
+    background: #009349;
+    height: 5px;
+    width: 160px;
+    margin: 0 auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+#services .row{
+    justify-content: space-between;
+    row-gap: 32px;
+}
+
+
+#services .services{
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    padding: 40px;
+    border-radius: 24px;
+}
+
+#services .services h4{
+    margin: 16px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#services .service-img{
+    width: 100px;
+}
+
+/* About */
+
+#about{
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+#about h1{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+#about ul li{
+    margin-top: 24px;
+}
+
+#about .title::before{
+    content: '';
+    background: #009349;
+    height: 5px;
+    width: 220px;
+    margin: 0 auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+/* Testimonial */
+#testimonial{
+    padding: 80px 0;
+}
+
+#testimonial h1{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#testimonial .title::before{
+    content: '';
+    background: #009349;
+    height: 5px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+#testimonial .testimonial{
+    padding: 24px;
+    border-left: 4px solid #009349;
+    margin-top: 32px;
+}
+
+#testimonial .testimonial img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#testimonial h4,small{
+    margin-top: 16px;
+}
+
+/* Social Icons */
+#social-icons{
+    padding: 80px 0;
+}
+
+#social-icons h1{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#social-icons .title::before{
+    content: '';
+    background: #009349;
+    width: 260px;
+    height: 5px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(63px);
+}
+
+#social-icons .social-icons{
+    margin: auto;
+}
+
+
+#social-icons .social-icons img{
+    margin-top: 32px;
+    width: 60px;
+    transition: .5s ease;
+}
+
+#social-icons .social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/* Footer */
+
+#footer{
+    background: #009349;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+#footer img{
+    width: 100%;
+}
+
+#footer .footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+#footer .footer-box ul li{
+    margin-top: 16px;
+}
+
+#footer .container hr{
+    margin-top: 32px;
+}
